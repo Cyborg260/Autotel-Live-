@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "339329536042",
+    "project_id": "autotel-2f5a1",
+    "storage_bucket": "autotel-2f5a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:c0331a53395f7ae5abb353",
+        "android_client_info": {
+          "package_name": "com.autotelnew.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
