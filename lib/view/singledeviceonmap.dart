@@ -580,15 +580,15 @@ class _SingleDeviceOnMapState extends State<SingleDeviceOnMap> {
                               newLocationUpdate(LatLng(latestLat, latestLng),
                                   vehicleDirection, iconPathfromApi);
 
-                              CameraPosition cameraPosition = CameraPosition(
-                                  target: LatLng(latestLat, latestLng),
-                                  zoom: 15);
-                              if (isMapLoaded) {
-                                myController.animateCamera(
-                                  CameraUpdate.newCameraPosition(
-                                      cameraPosition),
-                                );
-                              }
+                              // CameraPosition cameraPosition = CameraPosition(
+                              //     target: LatLng(latestLat, latestLng),
+                              //     zoom: 15);
+                              // if (isMapLoaded) {
+                              //   myController.animateCamera(
+                              //     CameraUpdate.newCameraPosition(
+                              //         cameraPosition),
+                              //   );
+                              // }
 
                               Future.delayed(Duration.zero, () {
                                 osmAddressViewModel.fetchOsmAddress(

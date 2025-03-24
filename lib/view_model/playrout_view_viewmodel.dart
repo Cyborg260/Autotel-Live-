@@ -9,6 +9,7 @@ import 'package:trackerapp/view_model/osmaddress_view_view_model.dart';
 import 'package:trackerapp/view_model/userlogin_view_model.dart';
 
 import 'package:trackerapp/repository/device_history_repository.dart';
+import 'dart:io';
 
 class PlayRoutOnMapViewModel with ChangeNotifier {
   final DeviceHistoryRepository _historyRepository = DeviceHistoryRepository();
@@ -33,6 +34,8 @@ class PlayRoutOnMapViewModel with ChangeNotifier {
   BitmapDescriptor eventsIcon = BitmapDescriptor.defaultMarker;
   BitmapDescriptor carIcon = BitmapDescriptor.defaultMarker;
   var carIconPath = "assets/images/car_icon6.png";
+  var carIconPathAndroid = "assets/images/car_icon6_android.png";
+
   int sliderValueMax = 0;
   int currentSliderValue = 0;
   int tripCount = 0;
@@ -185,9 +188,12 @@ class PlayRoutOnMapViewModel with ChangeNotifier {
   }
 
   setInitialCarMarker() async {
+    String selectedCarIconPath =
+        Platform.isAndroid ? carIconPathAndroid : carIconPath;
+
     carIcon = await BitmapDescriptor.fromAssetImage(
       const ImageConfiguration(),
-      carIconPath,
+      selectedCarIconPath,
     );
     mapMarkers.add(
       Marker(

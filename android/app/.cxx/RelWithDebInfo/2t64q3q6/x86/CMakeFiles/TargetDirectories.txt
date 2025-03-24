@@ -1,0 +1,2 @@
+/Users/imran/Developer/Imran/ScriptScense/ReactNative/Autotel-Live-/android/app/.cxx/RelWithDebInfo/2t64q3q6/x86/CMakeFiles/edit_cache.dir
+/Users/imran/Developer/Imran/ScriptScense/ReactNative/Autotel-Live-/android/app/.cxx/RelWithDebInfo/2t64q3q6/x86/CMakeFiles/rebuild_cache.dir
