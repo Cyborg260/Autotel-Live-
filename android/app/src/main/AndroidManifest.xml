@@ -35,7 +35,7 @@
      </intent>
     </queries>
     <application
-        android:label="AutoTel Live"
+        android:label="Platinum Track"
         android:usesCleartextTraffic="true"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">

@@ -82,7 +82,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     InkWell(
-                      onTap: () => _launchURLBrowser('tel:+922137224295'),
+                      onTap: () => _launchURLBrowser('tel:+923701836001'),
                       child: CircleAvatar(
                         radius: 30,
                         backgroundColor: Colors.grey[100],
@@ -94,7 +94,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                       ),
                     ),
                     InkWell(
-                      onTap: () => _launchURLBrowser('mailto:mail@autotel.pk'),
+                  onTap: () => _launchURLBrowser('mailto:info@theplatinumtrack.com'),
                       child: CircleAvatar(
                         radius: 30,
                         backgroundColor: Colors.grey[100],
@@ -107,7 +107,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                       ),
                     ),
                     InkWell(
-                      onTap: () => _launchURLBrowser('https://autotel.pk'),
+                      onTap: () => _launchURLBrowser('https://www.theplatinumtrack.com'),
                       child: CircleAvatar(
                         radius: 30,
                         backgroundColor: Colors.grey[100],
@@ -128,7 +128,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                   children: [
                     InkWell(
                       onTap: () => _launchURLBrowser(
-                          'https://wa.me/923111100353?text=I need information on tracker services'),
+                          'https://wa.me/923701836001?text=I need information on tracker services'),
                       child: CircleAvatar(
                         radius: 30,
                         backgroundColor: Colors.grey[100],
@@ -141,7 +141,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                     ),
                     InkWell(
                       onTap: () => _launchURLBrowser(
-                          'https://www.facebook.com/Autotelematics?mibextid=LQQJ4d'),
+                          'https://www.facebook.com/profile.php?id=61575561994524'),
                       child: CircleAvatar(
                         radius: 30,
                         backgroundColor: Colors.grey[100],
@@ -154,7 +154,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                     ),
                     InkWell(
                       onTap: () => _launchURLBrowser(
-                          'https://instagram.com/autotelematics?igshid=YmMyMTA2M2Y='),
+                          'https://www.instagram.com/platinumtrackpvtltd'),
                       child: CircleAvatar(
                         radius: 30,
                         backgroundColor: Colors.grey[100],
@@ -176,7 +176,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                     children: [
                       InkWell(
                         onTap: () =>
-                            _launchURLBrowser('https://autotel.pk/news/'),
+                            _launchURLBrowser('https://www.theplatinumtrack.com'),
                         child: Card(
                           shape: AppColors.cardBorderShape,
                           child: const ListTile(
@@ -244,7 +244,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                   padding: EdgeInsets.all(10.0),
                   child: Text(
                     textAlign: TextAlign.center,
-                    'A-512, 5th Floor, Saima Trade Towers,\n I.I Chundrigar Road, Karachi, Pakistan',
+                    'Office # 204, 2nd floor, Riaz Arcade, Kuri Road, P.O. NIH, Chak Shahzad, Islamabad.',
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 14,

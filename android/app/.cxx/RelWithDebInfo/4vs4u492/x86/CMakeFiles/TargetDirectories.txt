@@ -1,0 +1,2 @@
+/Users/user/Development/Projects/Flutter_Projects/Autotel-Live-/android/app/.cxx/RelWithDebInfo/4vs4u492/x86/CMakeFiles/edit_cache.dir
+/Users/user/Development/Projects/Flutter_Projects/Autotel-Live-/android/app/.cxx/RelWithDebInfo/4vs4u492/x86/CMakeFiles/rebuild_cache.dir

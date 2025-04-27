@@ -1448,42 +1448,44 @@ class _DashboardState extends State<Dashboard> {
                   ),
                 ),
                 const SizedBox(height: 10),
-                Card(
-                  shape: AppColors.cardBorderShape,
-                  margin:
-                      const EdgeInsets.only(left: 15, right: 15, bottom: 10),
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(
-                        vertical: 10, horizontal: 10),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        _controller.value.isInitialized
-                            ? Center(
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                  child: SizedBox(
-                                    width:
-                                        MediaQuery.of(context).size.width * .85,
-                                    child: AspectRatio(
-                                      aspectRatio:
-                                          _controller.value.aspectRatio,
-                                      child: VideoPlayer(_controller),
-                                    ),
-                                  ),
-                                ),
-                              )
-                            : const CircularProgressIndicator(),
-                      ],
-                    ),
-                  ),
-                ),
+            // Card(
+            //       shape: AppColors.cardBorderShape,
+            //       margin:
+            //           const EdgeInsets.only(left: 15, right: 15, bottom: 10),
+            //       child: Padding(
+            //         padding: const EdgeInsets.symmetric(
+            //             vertical: 10, horizontal: 10),
+            //         child: Row(
+            //           mainAxisAlignment: MainAxisAlignment.center,
+            //           children: [
+            //             _controller.value.isInitialized
+            //                 ? Center(
+            //                     child: ClipRRect(
+            //                       borderRadius: BorderRadius.circular(10.0),
+            //                       child: SizedBox(
+            //                         width:
+            //                             MediaQuery.of(context).size.width * .85,
+            //                         child: AspectRatio(
+            //                           aspectRatio:
+            //                               _controller.value.aspectRatio,
+            //                           child: VideoPlayer(_controller),
+            //                         ),
+            //                       ),
+            //                     ),
+            //                   )
+            //                 : const CircularProgressIndicator(),
+            //           ],
+            //         ),
+            //       ),
+            //     ),      const SizedBox(height: 10),
+            
                 Row(
                   children: [
                     Card(
                       shape: AppColors.cardBorderShape,
                       margin: const EdgeInsets.symmetric(
                         horizontal: 15,
+                        vertical: 10,
                       ),
                       child: Padding(
                           padding: const EdgeInsets.all(4.0),
@@ -1666,172 +1668,299 @@ class _DashboardState extends State<Dashboard> {
                     )
                   ],
                 ),
-                Card(
-                  shape: AppColors.cardBorderShape,
-                  margin:
-                      const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      _controller.value.isInitialized
-                          ? Padding(
-                              padding: const EdgeInsets.symmetric(
-                                  vertical: 10, horizontal: 10),
-                              child: Center(
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(10.0),
-                                  child: SizedBox(
-                                    width:
-                                        MediaQuery.of(context).size.width * .85,
-                                    child: AspectRatio(
-                                      aspectRatio:
-                                          _controller.value.aspectRatio,
-                                      child: const Image(
-                                          fit: BoxFit.fill,
-                                          image: NetworkImage(
-                                              'http://103.31.82.31/images/ad.gif')),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            )
-                          : const CircularProgressIndicator(),
-                    ],
-                  ),
-                ),
-                InkWell(
-                  onTap: () {
-                    Navigator.pushNamed(context, RoutesName.viewExpenseScreen,
-                        arguments: {'vehicleId': ''});
-                  },
-                  child: Card(
-                    shape: AppColors.cardBorderShape,
-                    margin: const EdgeInsets.symmetric(
-                      horizontal: 15,
+                // Card(
+                //   shape: AppColors.cardBorderShape,
+                //   margin:
+                //       const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+                //   child: Row(
+                //     mainAxisAlignment: MainAxisAlignment.center,
+                //     children: [
+                //       _controller.value.isInitialized
+                //           ? Padding(
+                //               padding: const EdgeInsets.symmetric(
+                //                   vertical: 10, horizontal: 10),
+                //               child: Center(
+                //                 child: ClipRRect(
+                //                   borderRadius: BorderRadius.circular(10.0),
+                //                   child: SizedBox(
+                //                     width:
+                //                         MediaQuery.of(context).size.width * .85,
+                //                     child: AspectRatio(
+                //                       aspectRatio:
+                //                           _controller.value.aspectRatio,
+                //                       child: const Image(
+                //                           fit: BoxFit.fill,
+                //                           image: NetworkImage(
+                //                               'http://103.31.82.31/images/ad.gif')),
+                //                     ),
+                //                   ),
+                //                 ),
+                //               ),
+                //             )
+                //           : const CircularProgressIndicator(),
+                //     ],
+                //   ),
+                // ),
+
+                Container(
+  margin: const EdgeInsets.symmetric(vertical: 10), // 👈 vertical spacing for both together
+  child: Column(
+    children: [
+      InkWell(
+        onTap: () {
+          Navigator.pushNamed(
+            context,
+            RoutesName.viewExpenseScreen,
+            arguments: {'vehicleId': ''},
+          );
+        },
+        child: Card(
+          shape: AppColors.cardBorderShape,
+          margin: const EdgeInsets.symmetric(horizontal: 15),
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Row(
+                  children: const [
+                    CircleAvatar(
+                      maxRadius: 16,
+                      backgroundColor: Colors.blueAccent,
+                      child: Icon(Icons.attach_money_outlined),
                     ),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Row(
-                            children: const [
-                              CircleAvatar(
-                                  maxRadius: 16,
-                                  backgroundColor: Colors.blueAccent,
-                                  child: Icon(
-                                    Icons.attach_money_outlined,
-                                  )),
-                              VerticalDivider(
-                                width: 6,
-                              ),
-                              Text(
-                                'Vehicle Expenses',
-                                style: TextStyle(
-                                    fontSize: 13,
-                                    color: Colors.black54,
-                                    fontWeight: FontWeight.bold),
-                              )
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              ChangeNotifierProvider.value(
-                                value: expenseRecordViewModel,
-                                child: Consumer<ExpenseRecordViewModel>(
-                                  builder: (context, viewModel, _) {
-                                    double totalAmount =
-                                        viewModel.calculateTotalAmount();
-                                    return Text('Rs.$totalAmount');
-                                  },
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
+                    VerticalDivider(width: 6),
+                    Text(
+                      'Vehicle Expenses',
+                      style: TextStyle(
+                        fontSize: 13,
+                        color: Colors.black54,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
-                  ),
+                  ],
                 ),
-                const SizedBox(
-                  height: 10,
-                ),
-                InkWell(
-                  onTap: () {
-                    Navigator.pushNamed(
-                      context,
-                      RoutesName.viewMaintenanceSchedule,
-                    );
-                  },
-                  child: Card(
-                    shape: AppColors.cardBorderShape,
-                    margin: const EdgeInsets.symmetric(
-                      horizontal: 15,
-                    ),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Row(
-                            children: [
-                              CircleAvatar(
-                                maxRadius: 16,
-                                backgroundColor: Colors.red[800],
-                                child: const Icon(
-                                  Icons.car_repair,
-                                ),
-                              ),
-                              const VerticalDivider(
-                                width: 6,
-                              ),
-                              const Text(
-                                'Upcoming Maintenance',
-                                style: TextStyle(
-                                    fontSize: 13,
-                                    color: Colors.black54,
-                                    fontWeight: FontWeight.bold),
-                              )
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              Row(
-                                children: [
-                                  CircleAvatar(
-                                    maxRadius: 16,
-                                    child: ChangeNotifierProvider.value(
-                                      value: vehicleMaintenanceViewModel,
-                                      child:
-                                          Consumer<VehicleMaintenanceViewModel>(
-                                        builder: (context, viewModel, _) {
-                                          return Text(viewModel
-                                              .maintenanceList.length
-                                              .toString());
-                                        },
-                                      ),
-                                    ),
-                                  ),
-                                  const SizedBox(width: 3),
-                                  InkWell(
-                                      onTap: () => Navigator.pushNamed(
-                                          context,
-                                          RoutesName
-                                              .addVehicleMaintenanceScreen),
-                                      child: const CircleAvatar(
-                                          maxRadius: 16, child: Text('+'))),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ],
+                Row(
+                  children: [
+                    ChangeNotifierProvider.value(
+                      value: expenseRecordViewModel,
+                      child: Consumer<ExpenseRecordViewModel>(
+                        builder: (context, viewModel, _) {
+                          double totalAmount =
+                              viewModel.calculateTotalAmount();
+                          return Text('Rs.$totalAmount');
+                        },
                       ),
                     ),
-                  ),
+                  ],
                 ),
-                const SizedBox(
-                  height: 10,
+              ],
+            ),
+          ),
+        ),
+      ),
+      const SizedBox(height: 10), // space *between* the cards
+      InkWell(
+        onTap: () {
+          Navigator.pushNamed(
+            context,
+            RoutesName.viewMaintenanceSchedule,
+          );
+        },
+        child: Card(
+          shape: AppColors.cardBorderShape,
+          margin: const EdgeInsets.symmetric(horizontal: 15),
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Row(
+                  children: [
+                    CircleAvatar(
+                      maxRadius: 16,
+                      backgroundColor: Colors.red[800],
+                      child: const Icon(Icons.car_repair),
+                    ),
+                    const VerticalDivider(width: 6),
+                    const Text(
+                      'Upcoming Maintenance',
+                      style: TextStyle(
+                        fontSize: 13,
+                        color: Colors.black54,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
                 ),
+                Row(
+                  children: [
+                    CircleAvatar(
+                      maxRadius: 16,
+                      child: ChangeNotifierProvider.value(
+                        value: vehicleMaintenanceViewModel,
+                        child: Consumer<VehicleMaintenanceViewModel>(
+                          builder: (context, viewModel, _) {
+                            return Text(viewModel.maintenanceList.length.toString());
+                          },
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 3),
+                    InkWell(
+                      onTap: () => Navigator.pushNamed(
+                        context,
+                        RoutesName.addVehicleMaintenanceScreen,
+                      ),
+                      child: const CircleAvatar(
+                        maxRadius: 16,
+                        child: Text('+'),
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    ],
+  ),
+),
+
+                // InkWell(
+                //   onTap: () {
+                //     Navigator.pushNamed(context, RoutesName.viewExpenseScreen,
+                //         arguments: {'vehicleId': ''});
+                //   },
+                //   child: Card(
+                //     shape: AppColors.cardBorderShape,
+                //     margin: const EdgeInsets.symmetric(
+                //       horizontal: 15,
+                //     ),
+                //     child: Padding(
+                //       padding: const EdgeInsets.all(8.0),
+                //       child: Row(
+                //         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                //         children: [
+                //           Row(
+                //             children: const [
+                //               CircleAvatar(
+                //                   maxRadius: 16,
+                //                   backgroundColor: Colors.blueAccent,
+                //                   child: Icon(
+                //                     Icons.attach_money_outlined,
+                //                   )),
+                //               VerticalDivider(
+                //                 width: 6,
+                //               ),
+                //               Text(
+                //                 'Vehicle Expenses',
+                //                 style: TextStyle(
+                //                     fontSize: 13,
+                //                     color: Colors.black54,
+                //                     fontWeight: FontWeight.bold),
+                //               )
+                //             ],
+                //           ),
+                //           Row(
+                //             children: [
+                //               ChangeNotifierProvider.value(
+                //                 value: expenseRecordViewModel,
+                //                 child: Consumer<ExpenseRecordViewModel>(
+                //                   builder: (context, viewModel, _) {
+                //                     double totalAmount =
+                //                         viewModel.calculateTotalAmount();
+                //                     return Text('Rs.$totalAmount');
+                //                   },
+                //                 ),
+                //               ),
+                //             ],
+                //           ),
+                //         ],
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // const SizedBox(
+                //   height: 10,
+                // ),
+                // InkWell(
+                //   onTap: () {
+                //     Navigator.pushNamed(
+                //       context,
+                //       RoutesName.viewMaintenanceSchedule,
+                //     );
+                //   },
+                //   child: Card(
+                //     shape: AppColors.cardBorderShape,
+                //     margin: const EdgeInsets.symmetric(
+                //       horizontal: 15,
+                //     ),
+                //     child: Padding(
+                //       padding: const EdgeInsets.all(8.0),
+                //       child: Row(
+                //         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                //         children: [
+                //           Row(
+                //             children: [
+                //               CircleAvatar(
+                //                 maxRadius: 16,
+                //                 backgroundColor: Colors.red[800],
+                //                 child: const Icon(
+                //                   Icons.car_repair,
+                //                 ),
+                //               ),
+                //               const VerticalDivider(
+                //                 width: 6,
+                //               ),
+                //               const Text(
+                //                 'Upcoming Maintenance',
+                //                 style: TextStyle(
+                //                     fontSize: 13,
+                //                     color: Colors.black54,
+                //                     fontWeight: FontWeight.bold),
+                //               )
+                //             ],
+                //           ),
+                //           Row(
+                //             children: [
+                //               Row(
+                //                 children: [
+                //                   CircleAvatar(
+                //                     maxRadius: 16,
+                //                     child: ChangeNotifierProvider.value(
+                //                       value: vehicleMaintenanceViewModel,
+                //                       child:
+                //                           Consumer<VehicleMaintenanceViewModel>(
+                //                         builder: (context, viewModel, _) {
+                //                           return Text(viewModel
+                //                               .maintenanceList.length
+                //                               .toString());
+                //                         },
+                //                       ),
+                //                     ),
+                //                   ),
+                //                   const SizedBox(width: 3),
+                //                   InkWell(
+                //                       onTap: () => Navigator.pushNamed(
+                //                           context,
+                //                           RoutesName
+                //                               .addVehicleMaintenanceScreen),
+                //                       child: const CircleAvatar(
+                //                           maxRadius: 16, child: Text('+'))),
+                //                 ],
+                //               ),
+                //             ],
+                //           ),
+                //         ],
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // const SizedBox(
+                //   height: 10,
+                // ),
               ],
             ),
           ),
