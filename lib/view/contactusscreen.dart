@@ -107,7 +107,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                       ),
                     ),
                     InkWell(
-                      onTap: () => _launchURLBrowser('https://www.theplatinumtrack.com'),
+                      onTap: () => _launchURLBrowser('https://autotel.pk/'),
                       child: CircleAvatar(
                         radius: 30,
                         backgroundColor: Colors.grey[100],
