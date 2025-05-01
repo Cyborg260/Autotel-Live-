@@ -1,0 +1,2 @@
+/Users/user/Development/Projects/Platinum Track Live/android/app/.cxx/Debug/164p422l/x86_64/CMakeFiles/edit_cache.dir
+/Users/user/Development/Projects/Platinum Track Live/android/app/.cxx/Debug/164p422l/x86_64/CMakeFiles/rebuild_cache.dir

@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyByXVejFx0oYq-U5I37HaBqoeq9dcaV-bk</string>
+	<string>AIzaSyBkjlevBUcpQ0gk7hr0w7vqAqrfN9Z4250</string>
 	<key>GCM_SENDER_ID</key>
-	<string>339329536042</string>
+	<string>717383853838</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.autotelnewapp.ios</string>
+	<string>com.platinumtrack.ios</string>
 	<key>PROJECT_ID</key>
-	<string>autotel-2f5a1</string>
+	<string>autotele</string>
 	<key>STORAGE_BUCKET</key>
-	<string>autotel-2f5a1.appspot.com</string>
+	<string>autotele.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:339329536042:ios:2931391744e01db0abb353</string>
+	<string>1:717383853838:ios:6e88c2282bce735875d95f</string>
 </dict>
 </plist>

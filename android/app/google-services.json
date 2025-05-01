@@ -1,26 +1,377 @@
 {
   "project_info": {
-    "project_number": "339329536042",
-    "project_id": "autotel-2f5a1",
-    "storage_bucket": "autotel-2f5a1.appspot.com"
+    "project_number": "717383853838",
+    "project_id": "autotele",
+    "storage_bucket": "autotele.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:339329536042:android:c0331a53395f7ae5abb353",
+        "mobilesdk_app_id": "1:717383853838:android:a2de5a2c9d0b4dac75d95f",
         "android_client_info": {
-          "package_name": "com.autotelnew.android"
+          "package_name": "com.autotel360.android"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+          "current_key": "AIzaSyDd0uAWBzzXMVoCxO1L252otRBDbu5tCdw"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "717383853838-1j3mpgbdns8qjo2qoqpo4h44rnmjj9q1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.autotelpro.ios",
+                "app_store_id": "1642183949"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717383853838:android:9c6cfd3aea3b445775d95f",
+        "android_client_info": {
+          "package_name": "com.autotel_lite.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0uAWBzzXMVoCxO1L252otRBDbu5tCdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "717383853838-1j3mpgbdns8qjo2qoqpo4h44rnmjj9q1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.autotelpro.ios",
+                "app_store_id": "1642183949"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717383853838:android:8852e6580599c84475d95f",
+        "android_client_info": {
+          "package_name": "com.autotele.telematics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0uAWBzzXMVoCxO1L252otRBDbu5tCdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "717383853838-1j3mpgbdns8qjo2qoqpo4h44rnmjj9q1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.autotelpro.ios",
+                "app_store_id": "1642183949"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717383853838:android:c9af0a8f7d289abe75d95f",
+        "android_client_info": {
+          "package_name": "com.autotelpro.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0uAWBzzXMVoCxO1L252otRBDbu5tCdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "717383853838-1j3mpgbdns8qjo2qoqpo4h44rnmjj9q1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.autotelpro.ios",
+                "app_store_id": "1642183949"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717383853838:android:d2985c73d114788f75d95f",
+        "android_client_info": {
+          "package_name": "com.autotelsupport.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0uAWBzzXMVoCxO1L252otRBDbu5tCdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "717383853838-1j3mpgbdns8qjo2qoqpo4h44rnmjj9q1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.autotelpro.ios",
+                "app_store_id": "1642183949"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717383853838:android:2c188f1db3f3baf075d95f",
+        "android_client_info": {
+          "package_name": "com.autotelsupport.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0uAWBzzXMVoCxO1L252otRBDbu5tCdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "717383853838-1j3mpgbdns8qjo2qoqpo4h44rnmjj9q1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.autotelpro.ios",
+                "app_store_id": "1642183949"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717383853838:android:2f5e2a160ec38cf275d95f",
+        "android_client_info": {
+          "package_name": "com.platinumtrack.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0uAWBzzXMVoCxO1L252otRBDbu5tCdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "717383853838-1j3mpgbdns8qjo2qoqpo4h44rnmjj9q1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.autotelpro.ios",
+                "app_store_id": "1642183949"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717383853838:android:72460dff025e983d75d95f",
+        "android_client_info": {
+          "package_name": "com.qisupport.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0uAWBzzXMVoCxO1L252otRBDbu5tCdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "717383853838-1j3mpgbdns8qjo2qoqpo4h44rnmjj9q1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.autotelpro.ios",
+                "app_store_id": "1642183949"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717383853838:android:2738b80f16e1626175d95f",
+        "android_client_info": {
+          "package_name": "com.qisupport.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0uAWBzzXMVoCxO1L252otRBDbu5tCdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "717383853838-1j3mpgbdns8qjo2qoqpo4h44rnmjj9q1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.autotelpro.ios",
+                "app_store_id": "1642183949"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717383853838:android:bdbdf0aa130cf0c475d95f",
+        "android_client_info": {
+          "package_name": "com.tracknow.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0uAWBzzXMVoCxO1L252otRBDbu5tCdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717383853838-avo31hjhda696ae17cq2q3i2t5sf77pe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "717383853838-1j3mpgbdns8qjo2qoqpo4h44rnmjj9q1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.autotelpro.ios",
+                "app_store_id": "1642183949"
+              }
+            }
+          ]
         }
       }
     }

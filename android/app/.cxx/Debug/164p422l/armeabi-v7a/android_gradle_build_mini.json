@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/user/Development/Projects/Flutter_Projects/AutoTeleLite/uploadLabel/Nostrum_Track/NostrumTrack-Lite/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/user/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/user/Development/Projects/Platinum Track Live/android/app/.cxx/Debug/164p422l/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/user/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/user/Development/Projects/Platinum Track Live/android/app/.cxx/Debug/164p422l/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

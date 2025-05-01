@@ -39,17 +39,16 @@ void main() async {
   );
   if (Platform.isAndroid) {
     firebaseOptions = const FirebaseOptions(
-      apiKey:
-          "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY", //*** API can be found in FCM google JSON file
-      appId: "1:339329536042:android:d08f2ba006966d45abb353",
-      messagingSenderId: "339329536042",
+      apiKey:"AIzaSyDd0uAWBzzXMVoCxO1L252otRBDbu5tCdw", //*** API can be found in FCM google JSON file
+      appId: "1:717383853838:android:a2de5a2c9d0b4dac75d95f",
+      messagingSenderId: "717383853838",
       projectId: "autotel-2f5a1",
     );
   } else if (Platform.isIOS) {
     firebaseOptions = const FirebaseOptions(
-      apiKey: 'AIzaSyByXVejFx0oYq-U5I37HaBqoeq9dcaV-bk',
-      appId: '1:339329536042:ios:61a6b0beced80f67abb353',
-      messagingSenderId: '339329536042',
+      apiKey: 'AIzaSyBkjlevBUcpQ0gk7hr0w7vqAqrfN9Z4250',
+      appId: '1:717383853838:ios:6e88c2282bce735875d95f',
+      messagingSenderId: '717383853838',
       projectId: 'autotel-2f5a1',
     );
   }
