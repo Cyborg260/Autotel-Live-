@@ -176,7 +176,7 @@ class _ContactUsScreenState extends State<ContactUsScreen> {
                     children: [
                       InkWell(
                         onTap: () =>
-                            _launchURLBrowser('https://www.theplatinumtrack.com'),
+                            _launchURLBrowser('https://autotel.pk/privacy-and-policy/'),
                         child: Card(
                           shape: AppColors.cardBorderShape,
                           child: const ListTile(
