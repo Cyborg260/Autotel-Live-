@@ -1,14 +1,13 @@
+import 'dart:io';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'dart:io';
 import 'package:shared_preferences/shared_preferences.dart';
-// import 'package:notification_permissions/notification_permissions.dart';
 import 'package:trackerapp/utils/routes/routes.dart';
 import 'package:trackerapp/utils/routes/routes_name.dart';
 import 'package:trackerapp/view_model/auth_view_model.dart';
-import 'package:trackerapp/view_model/device_commands_view_model.dart';
 import 'package:trackerapp/view_model/event_view_model.dart';
 import 'package:trackerapp/view_model/expnese_record_view_model.dart';
 import 'package:trackerapp/view_model/services/playsounds.dart';
@@ -31,55 +30,45 @@ Future<void> backGroundHandler(RemoteMessage event) async {
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   FirebaseOptions firebaseOptions = const FirebaseOptions(
     apiKey: '',
     appId: '',
     messagingSenderId: '',
     projectId: '',
   );
+
   if (Platform.isAndroid) {
     firebaseOptions = const FirebaseOptions(
-      apiKey:
-          "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY", //*** API can be found in FCM google JSON file
-      appId: "1:339329536042:android:d08f2ba006966d45abb353",
+      apiKey: "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY",
+      appId: "1:339329536042:android:ec0d4525a9279b4aabb353",
       messagingSenderId: "339329536042",
       projectId: "autotel-2f5a1",
     );
   } else if (Platform.isIOS) {
     firebaseOptions = const FirebaseOptions(
       apiKey: 'AIzaSyByXVejFx0oYq-U5I37HaBqoeq9dcaV-bk',
-      appId: '1:339329536042:ios:61a6b0beced80f67abb353',
+      appId: '1:339329536042:ios:e335f614cb9ba392abb353',
       messagingSenderId: '339329536042',
       projectId: 'autotel-2f5a1',
     );
   }
 
   await Firebase.initializeApp(
+    name: 'opinionlive',
     options: firebaseOptions,
   );
 
-  FirebaseMessaging.instance.requestPermission();
-  // FirebaseMessaging messaging = FirebaseMessaging.instance;
-  // await messaging.requestPermission(
-  //   alert: true,
-  //   announcement: false,
-  //   badge: true,
-  //   carPlay: false,
-  //   criticalAlert: true,
-  //   provisional: true,
-  //   sound: true,
-  // );
+  FirebaseMessaging.instance.requestPermission(
+    alert: true,
+    announcement: false,
+    badge: true,
+    carPlay: false,
+    criticalAlert: true,
+    provisional: false,
+    sound: true,
+  );
 
-  // NotificationSettings settings = await messaging.requestPermission(
-  //   alert: true,
-  //   announcement: false,
-  //   badge: true,
-  //   carPlay: false,
-  //   criticalAlert: true,
-  //   provisional: true,
-  //   sound: true,
-  // );
-  //FirebaseMessaging.onBackgroundMessage(backGroundHandler);
   FirebaseMessaging.onBackgroundMessage(backGroundHandler);
 
   runApp(const MyApp());
@@ -111,9 +100,6 @@ class _MyAppState extends State<MyApp> {
         ),
         ChangeNotifierProvider(
           create: (_) => ExpenseRecordViewModel(),
-        ),
-        ChangeNotifierProvider(
-          create: (_) => DeviceCommandsViewModel(),
         ),
       ],
       child: MaterialApp(

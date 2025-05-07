@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="com.autotelnew.android">
+          package="com.trukkrlive.android">
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/>
    <!-- Required to fetch data from the internet. -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -35,7 +35,7 @@
      </intent>
     </queries>
     <application
-        android:label="AutoTel Live"
+        android:label="Trukkr Live"
         android:usesCleartextTraffic="true"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">

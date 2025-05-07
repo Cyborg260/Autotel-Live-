@@ -1,0 +1,276 @@
+{
+  "project_info": {
+    "project_number": "339329536042",
+    "project_id": "autotel-2f5a1",
+    "storage_bucket": "autotel-2f5a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:d0f6493a0ebbaca6abb353",
+        "android_client_info": {
+          "package_name": "com.autotelbasic.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:b064e760c8cd1a0babb353",
+        "android_client_info": {
+          "package_name": "com.autotellite.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:c0331a53395f7ae5abb353",
+        "android_client_info": {
+          "package_name": "com.trukkrlive.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:bc29528fa4035142abb353",
+        "android_client_info": {
+          "package_name": "com.autotelultra.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:90cbb5099a919394abb353",
+        "android_client_info": {
+          "package_name": "com.gigatrack.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:8ac8f1b8430d7f4cabb353",
+        "android_client_info": {
+          "package_name": "com.gigatrackpro.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:46fcc7c360ede11cabb353",
+        "android_client_info": {
+          "package_name": "com.globalexperts.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:c09667ebf823ad57abb353",
+        "android_client_info": {
+          "package_name": "com.opiniongpslite.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:b6acfdf4790c7d38abb353",
+        "android_client_info": {
+          "package_name": "com.opiniongpslive.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:bdf5b9bfa85c2c52abb353",
+        "android_client_info": {
+          "package_name": "com.signTrack.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:78ab317f4d418642abb353",
+        "android_client_info": {
+          "package_name": "com.trackit.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:4eebdfb8bd00794aabb353",
+        "android_client_info": {
+          "package_name": "com.trackitlite.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:d08f2ba006966d45abb353",
+        "android_client_info": {
+          "package_name": "com.trackitpro.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339329536042:android:ec0d4525a9279b4aabb353",
+        "android_client_info": {
+          "package_name": "com.trukkrlive.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd7u3Jl_979xmMn3-9NtTcPKqFce5smkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
