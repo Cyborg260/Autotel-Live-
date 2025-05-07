@@ -42,7 +42,7 @@ if (keystorePropertiesFile.exists()) {
 android {
     compileSdkVersion 35
     ndkVersion flutter.ndkVersion
-    namespace "com.autotelnew.android"
+    namespace "com.platinumtrack.android"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -59,7 +59,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.autotelnew.android"
+        applicationId "com.platinumtrack.android"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
         minSdkVersion 21
